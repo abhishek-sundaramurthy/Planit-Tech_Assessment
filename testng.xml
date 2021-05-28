@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="appURL" value="http://jupiter.cloud.planittesting.com/"/>
+<parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.pack.common.tests.TC001_ValidateError_ContactPage"/>
+      <class name="com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage"/>
+      <class name="com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage"/>
+      <class name="com.pack.common.tests.TC004_ValidateCartItems_ShopPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

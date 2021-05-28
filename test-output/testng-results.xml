@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="111140" started-at="2021-05-28T21:52:50 AEST" finished-at="2021-05-28T21:54:41 AEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="111140" started-at="2021-05-28T21:52:50 AEST" finished-at="2021-05-28T21:54:41 AEST">
+      <class name="com.pack.common.tests.TC001_ValidateError_ContactPage">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.TC001_ValidateError_ContactPage@7a765367]" name="initializeTestBaseSetup" is-config="true" duration-ms="6881" started-at="2021-05-28T21:52:50 AEST" finished-at="2021-05-28T21:52:57 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.TC001_ValidateError_ContactPage@7a765367]" name="setUp" is-config="true" duration-ms="1" started-at="2021-05-28T21:52:57 AEST" finished-at="2021-05-28T21:52:57 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateError_ContactPage(com.relevantcodes.extentreports.ExtentReports)[pri:0, instance:com.pack.common.tests.TC001_ValidateError_ContactPage@7a765367]" name="ValidateError_ContactPage" duration-ms="51855" started-at="2021-05-28T21:52:57 AEST" data-provider="createreport" finished-at="2021-05-28T21:53:49 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.relevantcodes.extentreports.ExtentReports@4264b240]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateError_ContactPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.TC001_ValidateError_ContactPage@7a765367]" name="tearDown" is-config="true" duration-ms="160" started-at="2021-05-28T21:53:49 AEST" finished-at="2021-05-28T21:53:49 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.TC001_ValidateError_ContactPage -->
+      <class name="com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage@17d677df]" name="initializeTestBaseSetup" is-config="true" duration-ms="4278" started-at="2021-05-28T21:53:58 AEST" finished-at="2021-05-28T21:54:02 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="ValidateError_InvalidData_MandatoryField_ContactPage(com.relevantcodes.extentreports.ExtentReports)[pri:0, instance:com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage@17d677df]" name="ValidateError_InvalidData_MandatoryField_ContactPage" duration-ms="11385" started-at="2021-05-28T21:54:02 AEST" data-provider="createreport" finished-at="2021-05-28T21:54:13 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.relevantcodes.extentreports.ExtentReports@4264b240]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateError_InvalidData_MandatoryField_ContactPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage@17d677df]" name="setUp" is-config="true" duration-ms="0" started-at="2021-05-28T21:54:02 AEST" finished-at="2021-05-28T21:54:02 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage@17d677df]" name="tearDown" is-config="true" duration-ms="23" started-at="2021-05-28T21:54:13 AEST" finished-at="2021-05-28T21:54:13 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage -->
+      <class name="com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage@76b0bfab]" name="initializeTestBaseSetup" is-config="true" duration-ms="4441" started-at="2021-05-28T21:53:49 AEST" finished-at="2021-05-28T21:53:53 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="ValidateSuccessfulSubmission_ContactPage(com.relevantcodes.extentreports.ExtentReports)[pri:0, instance:com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage@76b0bfab]" name="ValidateSuccessfulSubmission_ContactPage" duration-ms="4019" started-at="2021-05-28T21:53:53 AEST" data-provider="createreport" finished-at="2021-05-28T21:53:57 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.relevantcodes.extentreports.ExtentReports@4264b240]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccessfulSubmission_ContactPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage@76b0bfab]" name="setUp" is-config="true" duration-ms="0" started-at="2021-05-28T21:53:53 AEST" finished-at="2021-05-28T21:53:53 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage@76b0bfab]" name="tearDown" is-config="true" duration-ms="28" started-at="2021-05-28T21:53:57 AEST" finished-at="2021-05-28T21:53:58 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage -->
+      <class name="com.pack.common.tests.TC004_ValidateCartItems_ShopPage">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.common.tests.TC004_ValidateCartItems_ShopPage@3043fe0e]" name="initializeTestBaseSetup" is-config="true" duration-ms="4346" started-at="2021-05-28T21:54:13 AEST" finished-at="2021-05-28T21:54:18 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="ShopCart(com.relevantcodes.extentreports.ExtentReports)[pri:0, instance:com.pack.common.tests.TC004_ValidateCartItems_ShopPage@3043fe0e]" name="ShopCart" duration-ms="23543" started-at="2021-05-28T21:54:18 AEST" data-provider="createreport" finished-at="2021-05-28T21:54:41 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.relevantcodes.extentreports.ExtentReports@4264b240]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopCart -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.common.tests.TC004_ValidateCartItems_ShopPage@3043fe0e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-05-28T21:54:18 AEST" finished-at="2021-05-28T21:54:18 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.common.tests.TC004_ValidateCartItems_ShopPage@3043fe0e]" name="tearDown" is-config="true" duration-ms="27" started-at="2021-05-28T21:54:41 AEST" finished-at="2021-05-28T21:54:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.common.tests.TC004_ValidateCartItems_ShopPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

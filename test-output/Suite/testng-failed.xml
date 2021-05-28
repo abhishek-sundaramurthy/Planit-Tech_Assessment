@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appURL" value="http://jupiter.cloud.planittesting.com/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.pack.common.tests.TC004_ValidateCartItems_ShopPage">
+        <methods>
+          <include name="ShopCart"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.TC004_ValidateCartItems_ShopPage -->
+      <class name="com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="ValidateSuccessfulSubmission_ContactPage"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.TC002_ValidateSuccessMessage_ContactPage -->
+      <class name="com.pack.common.tests.TC001_ValidateError_ContactPage">
+        <methods>
+          <include name="ValidateError_ContactPage"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.TC001_ValidateError_ContactPage -->
+      <class name="com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage">
+        <methods>
+          <include name="ValidateError_InvalidData_MandatoryField_ContactPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.TC003_ValidateError_InvalidData_MandatoryField_ContactPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
